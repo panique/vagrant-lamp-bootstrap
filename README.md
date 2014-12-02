@@ -4,7 +4,7 @@ A super-simple Vagrantfile / bootstrap.sh to setup a LAMP stack inside Vagrant 1
 
 ### Whaaaaat ?
 
-This is a reduced-to-the-max Vagrant setup file, that will:
+This is a reduced-to-the-max Vagrant setup file for a quick development stack. It will:
 
 * setup a Ubuntu 14.04 LTS "Trustry Thar" 64bit box
 
