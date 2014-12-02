@@ -6,25 +6,25 @@ A super-simple Vagrantfile / bootstrap.sh to setup a LAMP stack inside Vagrant 1
 
 This is a reduced-to-the-max Vagrant setup file, that will:
 
-1.) setup a Ubuntu 14.04 LTS "Trustry Thar" 64bit box
+* setup a Ubuntu 14.04 LTS "Trustry Thar" 64bit box
 
-2.) make the box accessable by the host at IP `192.168.33.22`
+* make the box accessable by the host at IP `192.168.33.22`
 
-3.) sync the current folder with `/var/www/html` inside the box
+* sync the current folder with `/var/www/html` inside the box
 
-4.) automatically perform all the commands in bootstrap.sh directly after setting up the box for the first time
+* automatically perform all the commands in bootstrap.sh directly after setting up the box for the first time
 
 The bootstrap.sh will:
 
-5.) update, upgrade
+* update, upgrade
 
-6.) create a folder inside /var/www/html
+* create a folder inside /var/www/html
 
-7.) install apache 2.4, php 5.5, MySQL, PHPMyAdmin, git and Composer
+* install apache 2.4, php 5.5, MySQL, PHPMyAdmin, git and Composer
 
-8.) also setting a pre-chosen password for MySQL and PHPMyAdmin
+* also setting a pre-chosen password for MySQL and PHPMyAdmin
 
-7.) activate mod_rewrite and add *AllowOverride All* to the vhost settings
+* activate mod_rewrite and add *AllowOverride All* to the vhost settings
 
 You can folder and password inside the bootstrap.sh for sure.
 
