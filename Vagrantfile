@@ -3,6 +3,9 @@
 
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 VAGRANTFILE_API_VERSION = "2"
+# The project name is base for directories, hostname and alike
+project_name = "projectName"
+db_password = "123456789"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
@@ -17,6 +20,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.synced_folder "./", "/var/www/html"
 
   # Define the bootstrap file: A (shell) script that runs after first setup of your box (= provisioning)
-  config.vm.provision :shell, path: "bootstrap.sh"
+  config.vm.provision "shell" do |s|
+    s.path = "bootstrap.sh"
+    s.args = [project_name, db_password]
+  end
 
 end
