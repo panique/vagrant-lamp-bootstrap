@@ -55,3 +55,6 @@ sudo apt-get -y install git
 # install Composer
 curl -s https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
+
+# cleanup
+sudo apt-get -y autoremove
