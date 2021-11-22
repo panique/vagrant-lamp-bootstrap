@@ -8,7 +8,7 @@ This is a reduced-to-the-max Vagrant setup file for a quick development stack. I
 
 * setup a Ubuntu 14.04 LTS "Trustry Thar" 64bit box
 
-* make the box accessable by the host at IP `192.168.33.22`
+* make the box accessable by the host at IP `192.168.33.100`
 
 * sync the current folder with `/var/www/html` inside the box
 
