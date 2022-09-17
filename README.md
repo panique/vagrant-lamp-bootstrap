@@ -37,3 +37,7 @@ This box uses Ubuntu 14.04 LTS "Trustry Thar" 64bit, so if you don't have the ba
 ### Why ?
 
 This is just my personal time-saving bootstrap for Vagrant, it might be useful for you too.
+
+## Support
+
+<a href="https://www.buymeacoffee.com/panique" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
